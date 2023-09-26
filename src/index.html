@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./vendor/owl/css/owl.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="./vendor/jquery-ui/jquery-ui.css"> -->
+    <link rel="stylesheet" href="/dist/css/libs.min.css">
+
+    <title>Magic Travels - Viagens mágicas</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./images/magic_logo.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-modal-open" href="#sobre" rel="sobre">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-modal-open" href="#contato" rel="contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="caption">
+                        <h2>Planeje sua viagem</h2>
+                        <div class="line-dec"></div>
+                        <p>Pacotes personalizados para você realizar a viagem dos seus sonhos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="produtos" class="featured-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Destinos mais procurados</h1>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="featured-item">
+                            <img src="./images/item1-paris.jpg" alt="Paris">
+                            <h4>Paris</h4>
+                            <h6>A partir de R$ 5.000</h6><br>
+                            <a href="single-product.html">
+                                Eu quero
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./images/item2-egito.jpg" alt="Egito">
+                            <h4>Egito</h4>
+                            <h6>A partir de R$ 6.000</h6><br>
+                            <a href="single-product.html">
+                                Eu quero
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./images/item3-capadocia.jpg" alt="Turquia">
+                            <h4>Turquia</h4>
+                            <h6>A partir de R$ 6.000</h6><br>
+                            <a href="single-product.html">
+                                Eu quero
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./images/item5-grecia.jpg" alt="Grecia">
+                            <h4>Grécia</h4>
+                            <h6>A partir de R$ 3.500</h6><br>
+                            <a href="single-product.html">
+                                Eu quero
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./images/item6-ny.jpg" alt="Nova York">
+                            <h4>Nova York</h4>
+                            <h6>A partir de R$ 4.000</h6><br>
+                            <a href="single-product.html">
+                                Eu quero
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./images/item7-islandia.jpg" alt="islandia">
+                            <h4>Islândia</h4>
+                            <h6>A partir de R$ 10.000</h6><br>
+                            <a href="single-product.html">
+                                Eu quero
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./images/item4-assessoria.jpg" alt="Assessoria de viagem">
+                            <h4>Consultoria</h4>
+                            <h6>A partir de R$ 50,00</h6><br>
+                            <a href="single-product.html">
+                                Eu quero
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Receba dicas de viagem</h1>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <div class="main-content">
+                        <p>Insira seus dados abaixo para receber dicas de passeios toda quinta-feira!</p>
+                        <div class="container">
+                            <form id="subscribe" class="form" action="" method="get">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <fieldset>
+                                            <input name="email" type="text" class="form-control" id="email" value="" placeholder="Seu e-mail" >
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="button">Inscreva-se</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <img src="./images/magic_logo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#top">Home</a></li>
+                            <li><a href="#produtos">Destinos</a></li>
+                            <li><a href="#sobre" rel="sobre" class="nav-modal-open">Sobre</a></li>
+                            <li><a href="#contato" rel="contato" class="nav-modal-open">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>Magic Travels &copy; Todos os direitos reservados
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+    <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">              
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <div id="contato" class="visually-hidden">
+
+        <form action="post" class="form">
+
+            <div class="mb-3">
+              <label for="nome" class="form-label">Name</label>
+              <input type="text" name="nome" id="nome" class="form-control" placeholder="" aria-describedby="helpId">
+              <small id="helpId" class="text-muted">Insira seu nome.</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="destino" class="form-label">Destino</label>
+                <input type="text" name="destino" id="destino" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Insira o destino desejado</small>
+              </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Insira seu e-mail</small>
+              </div>
+
+              <div class="mb-3">
+                <label for="date" class="form-label">Data da viagem</label>
+                <input type="text" name="date" id="datepicker" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Insira uma data válida</small>
+                <script>
+                    $(function(){
+                        $("#datepicker").datepicker();
+                 })
+                 </script>
+              </div>
+
+              <div class="mb-3">
+                <label for="hora" class="form-label">Hora</label>
+                <input type="text" name="hora" id="hora" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Insira horário válido</small>
+              </div>
+
+              <div class="mb-3">
+                <label for="cep" class="form-label">CEP</label>
+                <input type="text" name="cep" id="cep" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Digite seu CEP</small>
+              </div>
+
+              <div class="mb-3">
+                <label for="cel" class="form-label">Celular</label>
+                <input type="text" name="cel" id="cel" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Digite o número do seu Contato</small>
+              </div>
+
+              <div class="mb-3">
+                <label for="cpf" class="form-label">CPF</label>
+                <input type="text" name="cpf" id="cpf" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Digite o seu CPF</small>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Enviar</button>
+
+        </form>
+
+    </div>  
+
+
+    <div id="sobre" class="visually-hidden">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consequatur explicabo eos doloribus suscipit impedit nulla voluptates eius ad sint fugiat, atque corrupti, pariatur nobis dignissimos! Ut at tempore recusandae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, consequatur explicabo eos doloribus suscipit impedit nulla voluptates eius ad sint fugiat, atque corrupti, pariatur nobis dignissimos! Ut at tempore recusandae?</p>
+
+    </div>
+      
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./vendor/owl/js/owl.js"></script>
+    <script src="./vendor/jquery-mask/jquery.mask.js"></script>
+    <script src="./vendor/jquery-ui/jquery-ui.js"></script>
+
+    <!-- Scripts Unidos e Minificados -->
+    <script src="./js/scripts.min.js"></script>
+      
+    </body>
+    </html>
