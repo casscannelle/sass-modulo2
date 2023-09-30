@@ -173,11 +173,10 @@ a {
 	&:hover {
 	opacity: 0.9;
 	}
-}
-.featured-item img {
+	 img {
 	width: 100%;
-}
-.featured-item h4 {
+	}
+	h4 {
 	font-size: 17px;
 	font-weight: 700;
 	color: #1e1e1e;
@@ -186,12 +185,13 @@ a {
 	&:hover h4 {
 	color: #b53acd;
 	}
-}
-.featured-item h6 {
+	}
+	h6 {
 	color: #b53acd;
 	font-size: 15px;
 	font-weight: 700;
 	margin-bottom: 0px;
+	}
 }
 .owl-theme .owl-dots {
 	text-align: center;
@@ -278,44 +278,43 @@ a {
 /* Footer Style */
 .footer {
 	text-align: center;
-}
-.footer ul {
+	 ul {
 	padding: 0px;
 	margin: 0px;
-}
-.footer ul li {
+	}
+ 	ul li {
 	list-style: none;
 	display: inline-block;
-}
-.footer .logo img {
+	}
+	.logo img {
 	max-width: 100%;
 	margin-top: 60px;
 	margin-bottom: 40px;
-}
-.footer .footer-menu {
+	}
+	.footer-menu {
 	margin-bottom: 40px;
-}
-.footer .footer-menu ul li {
+	}
+	.footer-menu ul li {
 	margin: 0px 15px;
-}
-.footer .footer-menu a {
+	}
+	.footer-menu a {
 	font-size: 13px;
 	color: #7a7a7a;
 	text-transform: uppercase;
 	transition: all 0.5s;
-}
-.footer .footer-menu a:hover {
+	}
+	.footer-menu a:hover {
 	color: #b53acd;
 	text-decoration: none;
-}
-.footer .social-icons {
+	}
+	.social-icons {
 	margin-bottom: 60px;
 	color: #fff;
-}
-.footer .social-icons ul li {
+	}
+	.social-icons ul li {
 	margin: 0px 10px;
-}
-.footer .social-icons a {
+	}
+	.social-icons a {
 	width: 32px;
 	height: 32px;
 	color: #000000;
@@ -326,50 +325,49 @@ a {
 	border-radius: 50%;
 	font-size: 13px;
 	transition: all 0.5s;
-}
-.footer .social-icons a:hover {
+	}
+	.social-icons a:hover {
 	background-color: #b53acd;
+	}
 }
-
 /* Sub Footer Style */
 .sub-footer {
 	border-top: 1px solid #eee;
 	text-align: center;
-}
-.sub-footer p {
+	 p {
 	font-size: 12px;
 	color: #7a7a7a;
 	line-height: 60px;
-}
-.sub-footer a {
+	}
+	a {
 	color: #b53acd;
 	text-decoration: none;
+	}
 }
-
 /* Featured Page Style */
 .featured-page {
 	margin-top: 130px;
 	margin-bottom: 40px;
-}
-.featured-page .section-heading {
+	.section-heading {
 	margin-top: 0px;
 	margin-bottom: 0px;
-}
-.featured-page #filters {
+	}
+	#filters {
 	margin-top: 15px;
 	text-align: right;
-}
-.featured .featured-item {
+	}
+	.featured-item {
 	margin-bottom: 30px;
 	text-decoration: none;
-}
-.featured .featured-item h4 {
+	}
+	.featured-item h4 {
 	transition: all 0.5s;
-}
-.featured .featured-item:hover h4 {
+	}
+	.featured-item:hover h4 {
 	color: #b53acd;
+	}
 }
-#filter button {
+	#filter button {
 	outline: none;
 }
 #filter .btn-primary.focus,

@@ -33,7 +33,7 @@ function tarefasCSS(cb) {
 }
 
 function tarefasSASS(cb){
-    gulp.src('./scss/**/*.scss')
+    gulp.src('./src/scss/**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('./dist/css'))
 
